@@ -9,16 +9,16 @@ export default function SingleTech(props)
     <>
       <p className="text-xl my-3 min-h-6">{title}</p>
       <div className="h-0.5 w-full bg-gray-300"></div>
-      <ul className="flex">
+      <div className="grid grid-cols-3 items-center">
         {
           techs && techs.map((subtech: Tech) => (
-            <div key={subtech.src}>
-              <Image height={90} width={90} src={subtech.src} className="ring ring-gray-300 outline-none p-4 m-2 rounded-xl" alt={`${subtech.info}.png`}/>
+            <div key={subtech.src} className="m-auto">
+              <Image height={80} width={80} src={subtech.src} className="ring ring-gray-300 outline-none p-2 mx-auto my-2 rounded-xl" alt={`${subtech.info}.png`}/>
               <span className="block text-center">{subtech.info}</span>
             </div>
           ))
         }
-      </ul>
+      </div>
 
     </>
   )
