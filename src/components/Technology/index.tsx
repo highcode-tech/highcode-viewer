@@ -14,19 +14,20 @@ const Technology = () => {
             center
           />
 
-          <div className="flex">
-            <div className="m-3 w-1/4">
+          <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3">
+            <div className="m-3 p-3">
               <p className="text-3xl my-5 text-center">Mobile Development</p>
               <SingleTech title="Native" techs={mobileNativeTechData}/>
               <SingleTech title="Hybrid" techs={mobileHybridTechData}/>
             </div>
-            <div className="m-3 w-2/4">
+            <div className="m-3 p-3">
               <p className="text-3xl my-5 text-center">Web Development</p>
               <SingleTech title="FrontEnd" techs={webFrontEndTechData}/>
               <SingleTech title="BackEnd" techs={webBackEndTechData}/>
+              
             </div>
 
-            <div className="m-3 w-1/3">
+            <div className="m-3 p-3">
               <p className="text-3xl my-5 text-center">BlockChain Development</p>
               <SingleTech title="" techs={blockChainTechData}/>
             </div>
