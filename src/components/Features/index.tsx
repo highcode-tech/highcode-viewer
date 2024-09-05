@@ -14,7 +14,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Tech Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.`"
             center
           />
 
@@ -44,7 +44,7 @@ const Features = () => {
               {tabs.map((tab) => (
                 <div
                   key={tab.id}
-                  className={`tab-content ${activeTab === tab.id ? 'block' : 'hidden'}`}
+                  className={`dark:text-black tab-content ${activeTab === tab.id ? 'block' : 'hidden'}`}
                 >
                   {tab.content}
                 </div>
