@@ -52,24 +52,29 @@ const Header = () => {
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
+                className={`header-logo flex items-center w-full ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/logo_big.png"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="w-full dark:hidden"
+                  width={50}
+                  height={50}
+                  className="dark:hidden"
                 />
+                
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/logo_big.png"
                   alt="logo"
-                  width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
+                  width={50}
+                  height={50}
+                  className="hidden dark:block"
                 />
+
+                <span className="w-full font-bold text-3xl">HighCode</span>
+               
+
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
@@ -110,7 +115,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+                            className={`flex py-2 text-xl lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary dark:text-white"
                                 : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"

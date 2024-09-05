@@ -8,6 +8,17 @@ const nextConfig = {
         hostname: "cdn.sanity.io",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "cdn-hjokj.nitrocdn.com",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.prod.website-files.com",
+        port: "",
+      },
+      
     ],
   },
 };
