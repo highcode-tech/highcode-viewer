@@ -5,11 +5,11 @@ const tabsData: Tab[] = [
     {
         id: 'tab1',
         label: 'Personalized matching',
-        image: "/images/feature/in-depth-insights.png",
+        image: "/images/feature/personalized-matching.png",
         content: (
             <>
                 <h2 className="text-2xl font-semibold">Personalized matching</h2>
-                <div className="md:inline-flex">
+                <div className="md:inline-flex md:h-80">
                     <p className="first-line:tracking-widest
                     first-letter:text-5xl first-letter:font-bold
                     first-letter:mr-3 first-letter:float-left text-lg">
@@ -30,7 +30,7 @@ const tabsData: Tab[] = [
         content: (
             <>
                 <h2 className="text-2xl font-semibold">Onboarding simplified</h2>
-                <div className="md:inline-flex">
+                <div className="md:inline-flex md:h-80">
                     <p className="first-line:tracking-widest
                     first-letter:text-5xl first-letter:font-bold
                     first-letter:mr-3 first-letter:float-left text-lg">
@@ -43,12 +43,12 @@ const tabsData: Tab[] = [
     },
     {
         id: 'tab3',
-        label: 'Technology',
-        image: '/images/feature/personalized-matching.png',
+        label: 'In-depth insights produced by perfectionists',
+        image: '/images/feature/in-depth-insights.png',
         content: (
             <>
                 <h2 className="text-2xl font-semibold">In-depth insights produced by perfectionists</h2>
-                <div className="md:inline-flex">
+                <div className="md:inline-flex md:h-80">
                     <p className="first-line:tracking-widest
                     first-letter:text-5xl first-letter:font-bold
                     first-letter:mr-3 first-letter:float-left text-lg">

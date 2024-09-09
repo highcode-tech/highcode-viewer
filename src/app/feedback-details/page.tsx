@@ -1,16 +1,16 @@
-import SharePost from "@/components/Blog/SharePost";
-import TagButton from "@/components/Blog/TagButton";
+import SharePost from "@/components/Feedback/SharePost";
+import TagButton from "@/components/Feedback/TagButton";
 import Image from "next/image";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | HighCode Tech",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title: "Feedback Details Page | HighCode Tech",
+  description: "This is Feedback Details Page for Startup Nextjs Template",
   // other metadata
 };
 
-const BlogDetailsPage = () => {
+const FeedbackDetailsPage = () => {
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
@@ -28,7 +28,7 @@ const BlogDetailsPage = () => {
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
-                            src="/images/blog/author-02.png"
+                            src="/images/feedback/author-02.png"
                             alt="author"
                             fill
                           />
@@ -111,7 +111,7 @@ const BlogDetailsPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
+                        src="/images/feedback/feedback-details-02.jpg"
                         alt="image"
                         fill
                         className="object-cover object-center"
@@ -344,4 +344,4 @@ const BlogDetailsPage = () => {
   );
 };
 
-export default BlogDetailsPage;
+export default FeedbackDetailsPage;

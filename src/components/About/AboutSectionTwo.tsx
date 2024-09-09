@@ -11,17 +11,12 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/software development_2.jpeg"
                 alt="about image"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="drop-shadow-three"
               />
-              <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
-                fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
-              />
+              
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
@@ -30,24 +25,24 @@ const AboutSectionTwo = () => {
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Mobile Development
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  
+                <p className="text-justify text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                Process of creating software applications that run on mobile devices such as smartphones and tablets. Mobile development can target different platforms, primarily iOS (Apple devices) and Android (Google devices).
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Web Development
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  
+                <p className="text-justify text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                Process of building and maintaining websites and web applications that run in a browser. It involves a combination of client-side (front-end) and server-side (back-end) development, each playing a key role in the functionality and user experience of websites.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Blockchain Development
                 </h3>
-                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  
+                <p className="text-justify text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                Process of creating applications and platforms based on blockchain technology, which is a decentralized and distributed ledger system. This technology enables secure, transparent, and tamper-proof recording of transactions across a network of computers.
                 </p>
               </div>
             </div>

@@ -1,32 +1,32 @@
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
+import SingleFeedback from "@/components/Feedback/SingleFeedback";
+import FeedbackData from "@/components/Feedback/FeedbackData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | HighCode Tech",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "Feedback Page | HighCode Tech",
+  description: "This is Feedback Page for Startup Nextjs Template",
   // other metadata
 };
 
-const Blog = () => {
+const Feedback = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Blog Grid"
+        pageName="Feedback Grid"
         description="See what out clients say."
       />
 
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
-            {blogData.map((blog) => (
+            {FeedbackData.map((Feedback) => (
               <div
-                key={blog.id}
+                key={Feedback.id}
                 className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
               >
-                <SingleBlog blog={blog} />
+                <SingleFeedback Feedback={Feedback} />
               </div>
             ))}
           </div>
@@ -96,4 +96,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Feedback;

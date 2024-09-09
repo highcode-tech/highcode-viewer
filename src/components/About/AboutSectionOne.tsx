@@ -34,10 +34,20 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Personalized matching" />
-                    <List text="Onboarding simplified" />
-                    <List text="Technology" />
+                  <div className="w-full px-3">
+                    <List text="Search Profiles" />
+                    <p className="text-justify">
+                    Browse our list of fresh, vetted candidates in your tech stack. Review cultural and technical insights to get a better understanding of each candidate’s skills. Schedule a meeting to get the process started.
+                    </p>
+                    <List text="Get Suggestions" />
+                    <p className="text-justify">
+                    Building a strong team is a joint venture for us. We are here to give you a boost by using all of our experience to suggest top profiles that'll make your hiring-life easier.
+                    </p>
+                    <List text="Review Assessments" />
+                    <p className="text-justify">
+                    Candidates are happy to go through panels, online challenges, and technical interviews.
+                    With your approval, we’ll handle contracts, payments, and hardware to make out of this a quick and smooth addition on the team.
+                    </p>
                   </div>
 
 
