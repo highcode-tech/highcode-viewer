@@ -62,7 +62,7 @@ const Pricing = () => {
             packageName="Lite"
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="TTTTTTTTTTTTTTTTTT sit amet adiscing elit Mauris egestas enim."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
@@ -75,7 +75,7 @@ const Pricing = () => {
             packageName="Basic"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="TTTTTTTTTTTTTTTTTT sit amet adiscing elit Mauris egestas enim."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
@@ -88,7 +88,7 @@ const Pricing = () => {
             packageName="Plus"
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="TTTTTTTTTTTTTTTTTT sit amet adiscing elit Mauris egestas enim."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />

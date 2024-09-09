@@ -121,7 +121,7 @@ const BlogSidebarPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    TTTTTTTTTTTTTTTTTT sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum. Neque
                     sodales ut etiam sit amet. Ligula ullamcorper
@@ -167,7 +167,7 @@ const BlogSidebarPage = () => {
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      TTTTTTTTTTTTTTTTTT sit amet, consectetur adipiscing elit,
                       sed do eiusmod incididunt utionals labore et dolore magna
                       aliqua. Quis lobortis scelerisque fermentum, The Neque ut
                       etiam sit amet.
