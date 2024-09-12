@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Connecting Top Talent with Leading Tech Companies."
+                paragraph=""
                 mb="44px"
               />
 
@@ -34,34 +34,34 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                  <div className="w-full px-3">
+                    <List text="Search Profiles" />
+                    <p className="text-justify">
+                    Browse our list of fresh, vetted candidates in your tech stack. Review cultural and technical insights to get a better understanding of each candidate’s skills. Schedule a meeting to get the process started.
+                    </p>
+                    <List text="Get Suggestions" />
+                    <p className="text-justify">
+                    Building a strong team is a joint venture for us. We are here to give you a boost by using all of our experience to suggest top profiles that will make your hiring-life easier.
+                    </p>
+                    <List text="Review Assessments" />
+                    <p className="text-justify">
+                    Candidates are happy to go through panels, online challenges, and technical interviews.
+                    With your approval, we’ll handle contracts, payments, and hardware to make out of this a quick and smooth addition on the team.
+                    </p>
                   </div>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
+
                 </div>
               </div>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
+              <div className="relative mx-auto my-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+                
+                <img 
+                  src="/images/about/about_1.png"
                   alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full drop-shadow-three dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>

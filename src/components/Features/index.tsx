@@ -32,19 +32,19 @@ const Features = () => {
                       : ''
                       }`}
                   >
-                    <Image src={tab.image} alt="image" width={50} height={50} className="m-auto" />
-                     {tab.label}
+                    <img src={tab.image} alt="image" width={80} height={80} className="m-auto" />
+                    <span className="text-xl">{tab.label}</span>
                   </button>
                 ))
               }
             </div>
 
             {/* Tab Content */}
-            <div className="p-4 bg-white rounded-lg shadow mt-4">
+            <div className="p-4 mt-4">
               {tabs.map((tab) => (
                 <div
                   key={tab.id}
-                  className={`dark:text-black tab-content ${activeTab === tab.id ? 'block' : 'hidden'}`}
+                  className={`tab-content ${activeTab === tab.id ? 'block' : 'hidden'}`}
                 >
                   {tab.content}
                 </div>

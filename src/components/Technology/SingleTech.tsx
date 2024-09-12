@@ -13,7 +13,7 @@ export default function SingleTech(props)
         {
           techs && techs.map((subtech: Tech) => (
             <div key={subtech.src} className="m-auto">
-              <Image height={80} width={80} src={subtech.src} className="ring ring-gray-300 outline-none p-2 mx-auto my-2 rounded-xl" alt={`${subtech.info}.png`}/>
+              <img height={80} width={80} src={subtech.src} className="ring ring-gray-300 outline-none p-2 mx-auto my-2 rounded-xl" alt={`${subtech.info}.png`}/>
               <span className="block text-center">{subtech.info}</span>
             </div>
           ))

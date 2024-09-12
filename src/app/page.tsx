@@ -1,6 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
+import Feedback from "@/components/Feedback";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
@@ -32,7 +32,7 @@ export default function Home() {
       <Testimonials />
       
       */}
-      <Blog />
+      <Feedback />
       <Technology />
       <Contact />
     </>
