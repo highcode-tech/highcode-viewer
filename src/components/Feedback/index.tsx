@@ -1,6 +1,6 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeedback from "./SingleFeedback";
-import FeedbackData from "./FeedbackData";
+import FeedbackData from "./feedbackData";
 
 const Feedback = () => {
   return (
@@ -11,7 +11,7 @@ const Feedback = () => {
       <div className="container">
         <SectionTitle
           title="Our Latest Feedbacks"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph=""
           center
         />
 
