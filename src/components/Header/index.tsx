@@ -56,7 +56,7 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
+                <img
                   src="/images/logo/logo_big.png"
                   alt="logo"
                   width={50}
@@ -64,7 +64,7 @@ const Header = () => {
                   className="dark:hidden"
                 />
                 
-                <Image
+                <img
                   src="/images/logo/logo_big.png"
                   alt="logo"
                   width={50}

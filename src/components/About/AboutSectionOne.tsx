@@ -41,7 +41,7 @@ const AboutSectionOne = () => {
                     </p>
                     <List text="Get Suggestions" />
                     <p className="text-justify">
-                    Building a strong team is a joint venture for us. We are here to give you a boost by using all of our experience to suggest top profiles that'll make your hiring-life easier.
+                    Building a strong team is a joint venture for us. We are here to give you a boost by using all of our experience to suggest top profiles that will make your hiring-life easier.
                     </p>
                     <List text="Review Assessments" />
                     <p className="text-justify">
@@ -56,18 +56,12 @@ const AboutSectionOne = () => {
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <Image
-                  src="/images/about/about-image.svg"
+              <div className="relative mx-auto my-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+                
+                <img 
+                  src="/images/about/about_1.png"
                   alt="about-image"
-                  fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full drop-shadow-three dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>

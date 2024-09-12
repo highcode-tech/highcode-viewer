@@ -17,7 +17,7 @@ const tabsData: Tab[] = [
                         Our matching specialists will learn about your company culture and positions to suggest custom-fit candidates.
                         Successful allocations build long-term partnerships.
                     </p>
-                    <Image className="m-auto" src="/images/feature/tab1.jpg" height={500} width={500} alt="in-depth-insights" />
+                    <img className="m-auto" src="/images/feature/tab1.jpg" height={500} width={500} alt="in-depth-insights" />
                     {/*<img className="max-w-96 max-h-80 min-w-96 min-h-80" src="/images/feature/tab1.jpg"></img>*/}
                 </div>
             </>
@@ -36,7 +36,7 @@ const tabsData: Tab[] = [
                     first-letter:mr-3 first-letter:float-left text-lg">
                         We find, hire, and equip talent from 23 countries in Latin America so they are ready to start delivering value in no time. You only get charged if you onboard a dev.
                     </p>
-                    <Image className="m-auto" src="/images/feature/tab2.jpg" height={500} width={500} alt="onboarding-simplified" />
+                    <img className="m-auto" src="/images/feature/tab2.jpg" height={500} width={500} alt="onboarding-simplified" />
                 </div>
             </>
         ),
@@ -54,7 +54,7 @@ const tabsData: Tab[] = [
                     first-letter:mr-3 first-letter:float-left text-lg">
                         We vet candidates with our own tech leads and produce in-depth reports so you can save time by meeting only with the most appealing candidates.
                     </p>
-                    <Image className="m-auto" src="/images/feature/tab3.jpg" height={500} width={500} alt="personalized-matching" />
+                    <img className="m-auto" src="/images/feature/tab3.jpg" height={500} width={500} alt="personalized-matching" />
                 </div>
 
             </>

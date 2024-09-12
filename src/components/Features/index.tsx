@@ -32,7 +32,7 @@ const Features = () => {
                       : ''
                       }`}
                   >
-                    <Image src={tab.image} alt="image" width={80} height={80} className="m-auto" />
+                    <img src={tab.image} alt="image" width={80} height={80} className="m-auto" />
                     <span className="text-xl">{tab.label}</span>
                   </button>
                 ))

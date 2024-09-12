@@ -29,10 +29,10 @@ const FeedbackSidebarPage = () => {
                     <div className="mb-5 mr-10 flex items-center">
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                          <Image
+                          <img
                             src="/images/feedback/author-02.png"
                             alt="author"
-                            fill
+                            
                           />
                         </div>
                       </div>
@@ -112,10 +112,10 @@ const FeedbackSidebarPage = () => {
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                      <Image
+                      <img
                         src="/images/feedback/feedback-details-01.jpg"
                         alt="image"
-                        fill
+                        
                         className="h-full w-full object-cover object-center"
                       />
                     </div>

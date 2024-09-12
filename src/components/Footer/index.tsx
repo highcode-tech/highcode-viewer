@@ -11,14 +11,14 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 flex items-center">
-                  <Image
+                  <img
                     src="/images/logo/logo_big.png"
                     alt="logo"
                     className="dark:hidden"
                     width={40}
                     height={40}
                   />
-                  <Image
+                  <img
                     src="/images/logo/logo_big.png"
                     alt="logo"
                     className="hidden dark:block"
@@ -49,17 +49,10 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      -@gmail.com
+                      hiring@highcode.tech
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      (650) 204 - 0966
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
