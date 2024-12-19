@@ -72,7 +72,11 @@ const Header = () => {
                   className="hidden dark:block"
                 />
 
-                <span className="w-full font-bold text-3xl">HighCode</span>
+                <span className="w-full font-bold text-3xl" style={{
+                  fontStyle: 'italic',
+                  fontFamily: 'monospace',
+                  textDecoration: 'underline'
+                }}>HighCode</span>
                
 
               </Link>

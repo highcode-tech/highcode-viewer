@@ -14,7 +14,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Tech Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.`"
+            paragraph="HighCode helps companies modernize technology, reimagine processes and transform experiences so they stay ahead in a fast-changing world."
             center
           />
 

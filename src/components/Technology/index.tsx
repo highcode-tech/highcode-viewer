@@ -10,7 +10,7 @@ const Technology = () => {
         <div className="container">
           <SectionTitle
             title="Technology Stack"
-            paragraph="Our engineers apprehend your business requirements and help you choose the right technology for your solution."
+            paragraph={<span>From <span className="font-bold">next-generation AI</span> to cutting edge <span className="font-bold">hybrid cloud solutions</span> to the deep expertise of <span className="font-bold">HighCode Tech</span>, HighCode has what it takes to help you reinvent how your business works in the age of AI.</span>}
             center
           />
 
