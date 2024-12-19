@@ -18,11 +18,10 @@ const nextConfig = {
         hostname: "cdn.prod.website-files.com",
         port: "",
       },
-      
     ],
   },
   distDir: "build",
-  output: 'export',
+  // output: 'export',
 };
 
 module.exports = nextConfig;

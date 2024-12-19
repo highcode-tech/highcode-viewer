@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Brad Mabry",
+    designation: "Product Manager @ Rolls Royce",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Great Job; Repeat Business is the best testament to a team’s ability to perform, and I have no hesitation in hiring them again. HighCode’s pleasant collaboration style and high-level acumen rapidly catalyzed significant momentum towards achieving our objectives. Perfect ++;",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Adam Isley",
+    designation: "Director @ Digital Strategy",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "HighCode provides amazing development and design resourcing, along with best in class account management support. We were able to speed up product and design and delivery while reducing our costs. BairesDev has been hands down the best vendor decision my team has made.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Tammi Han",
+    designation: "Founder @ Key2Moon Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "We have been successfully working with HighCode for the last 5 years. They have excellent resources available in multiple areas, but mostly, I was impressed by the flexibility and cooperation of the management. They will always go the extra mile to make customers happy.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Real testimonials from delighted clients."
+          paragraph="Since 2018, we've helped over 50 companies like Google, Rolls Royce, and eBay build great software."
           center
         />
 
