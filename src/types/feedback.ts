@@ -1,5 +1,7 @@
 type Author = {
   name: string;
+  address: string;
+  phone: string;
   image: string;
   designation: string;
 };
